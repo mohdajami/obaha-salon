@@ -190,7 +190,7 @@ a {
 
 .hero {
     height: 100vh;
-    background: url('/assets/img/hero.jpg') no-repeat;
+    background: url('./assets/img/hero.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
