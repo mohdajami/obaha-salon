@@ -258,8 +258,6 @@ a {
     }
 
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('/assets/img/hero.jpg') no-repeat;
-        background-size: cover;
         background-position: top center;
     }
 }
