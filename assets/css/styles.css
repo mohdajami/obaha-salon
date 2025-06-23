@@ -411,7 +411,6 @@ a {
 
 .filter-btn {
     color: #4a3d16;
-    /* ذهبي داكن */
     background-color: #fff;
     border: 2px solid #D4AF37;
     transition: all 0.3s ease;
@@ -423,11 +422,92 @@ a {
 
 .filter-btn:hover,
 .filter-btn.active {
-  background-color: #D4AF37;
-  color: #000; /* بدلاً من الأبيض */
+    background-color: #D4AF37;
+    color: #000;
+    /* بدلاً من الأبيض */
 }
 
+/* ======================= */
+/* start  reviews */
 
+.reviews-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.review-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.reviewer-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #222;
+}
+
+.review-text {
+    font-style: italic;
+    margin: 15px 0;
+    color: #555;
+}
+
+.review-date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.stars {
+    color: #fbb034;
+    font-size: 1.2em;
+}
+
+.stars i {
+    color: #fbb034;
+    font-size: 1.2em;
+    margin-right: 2px;
+}
+
+.read-more-btn {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fbb034;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.read-more-btn:hover {
+    background-color: #fbb034;
+    color: #000;
+}
+
+/* End reviews */
+/* ======================= */
 /* start contact */
 
 .contact-section {
