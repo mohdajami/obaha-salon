@@ -190,9 +190,9 @@ a {
 
 .hero {
     height: 100vh;
-    background: url('../img/hero10.jpg') no-repeat;
+    background: url('../img/hero.jpg') no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     position: relative;
     display: flex;
     align-items: center;
